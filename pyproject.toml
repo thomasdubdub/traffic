@@ -76,6 +76,8 @@ isort = { version = "^5.9.1", optional = true }
 black = { version = "^21.6b0", optional = true }
 flake8 = { version = "^3.9.2", optional = true }
 mypy = { version = "^0.902", optional = true }
+findspark = "^1.4.2"
+pyspark = "^3.1.2"
 
 [tool.poetry.extras]
 all = ["xarray", "libarchive", "pre-commit", "isort", "black", "flake8", "mypy"]
